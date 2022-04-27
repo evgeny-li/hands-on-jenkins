@@ -21,6 +21,12 @@ pipeline {
           }
         }
 
+        stage('Test Edge') {
+          steps {
+            bat 'echo \'Testing Edge\''
+          }
+        }
+
       }
     }
 
